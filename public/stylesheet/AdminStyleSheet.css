@@ -1,0 +1,138 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 5, 2019, 1:45:33 AM
+    Author     : shashi
+*/
+
+#header
+{
+    height: 30px;
+    width: 98%;
+    background-color: lightskyblue;
+    outline: 1px solid blue;    
+    margin-top: 10px;
+}
+
+#details
+{
+    line-height: 45px;
+    height: 45px;
+    width: 98%;
+    background-color: lightskyblue;
+    padding-left: 10px;
+}
+
+#searchinput
+{
+    width: 98%;
+    background-color: whitesmoke;
+    display: inline-block;
+    vertical-align: top;
+    border-top: 10px;
+    padding-top: 20px;
+    outline: 1px solid blue;
+}
+
+#btncontainer
+{
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#btnviewall
+{
+    margin-left: 20px;
+}
+
+button
+{
+    background-color: blue;
+    color: white;
+    height: 25px;
+    border-radius: 5px;
+}
+
+label[target="_leftmargin50"] 
+{
+    margin-left: 50px;
+}
+
+label[target="_leftmargin120"] 
+{
+    margin-left: 180px;
+}
+
+#details
+{
+    margin-top: 45px;
+}
+
+#srchrslt
+{
+    height: 200px;
+    overflow: auto;
+    width: 98%;
+    margin-top: 45px;
+}
+
+table
+{
+    width: 100%;
+    /*padding-top: 10px;*/
+    margin-top: 20px;
+    border-color: lightgray;
+    outline: 1px solid blue;
+}
+
+caption
+{
+    margin: 0 0 10px 0;
+    background-color: lightskyblue;
+    height: 45px;
+    line-height: 45px;
+    font-size: 20px;
+    color: white;
+    position: relative;
+}
+
+th, td
+{
+    padding-left: 5px;
+}
+
+th
+{
+    text-align: left;
+    border: 2px lightgray;
+    background-color: whitesmoke;
+    position: relative;
+}
+
+tr:nth-child(odd)
+{
+    background-color: gainsboro;
+}
+
+tr:hover
+{
+    
+    background-color: gray;
+}
+
+td:nth-child(1)
+{
+    width: 2px;
+}
+
+#srchrsltbtn
+{
+    margin-top: 25px;
+    height: 25px;
+}

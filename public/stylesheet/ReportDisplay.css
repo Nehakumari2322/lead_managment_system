@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 5, 2019, 5:43:05 PM
+    Author     : shashi
+*/
+
+body
+{
+    background-color: lightblue;
+}
+div.cstmrdtls 
+{
+    background-color: lightslategray;
+    height: 550px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 30px;
+}
+
+#rprthead  
+{
+    text-align: center;
+    padding: 20px;
+}
+
+#maininfo
+{
+    padding-left: 50px;
+}
+
+table
+{
+   width: 100%;
+   padding-left: 5px;
+   
+}
+caption
+{
+    text-align: center;
+    height: 15px;
+    line-height: 15px;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+th
+{
+    text-decoration: underline;
+    text-align: left;
+}
+td
+{
+    padding: 2px;
+}
